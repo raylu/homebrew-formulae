@@ -1,7 +1,7 @@
 cask "git-whence" do
-  version "0.4.0"
-  sha256 arm:   "a12e3c2f4737ec68b123d015c549575773ed26fff80f2f2109caea4970bb7c41",
-         intel: "54d1fca8f92d89993b9b21bb654478ccc3efa13a7109241fcbed71ea8536524d"
+  version "0.4.1"
+  sha256 arm:   "89bbf052d0f7caf5eb6cc6687fa6b66f561fecbb9fb564ef23834693f895d049",
+         intel: "335a6e33cb851792912593fe17faaa0977d1e1d550f193d1bccf228a1e3612d3"
 
   arch arm: "aarch64", intel: "x86_64"
   url "https://github.com/raylu/git-whence/releases/download/v#{version}/git-whence-#{arch}-apple-darwin"
